@@ -4,6 +4,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Styles for the body */
+.funky-text {
+	color: #009900;
+	font-style: italic;
+	text-decoration: underline #009900;
+}
+
+h3 {
+	font-family: 'Oswald', monospace;
+	font-size: 80px;
+	font-weight: bold;
+	text-transform: full-width;
+	background-blend-mode: color-burn;
+	text-decoration: underline green;
+}
+
+h2 { 
+font-family: 'Rampart One'
+}
 
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,7 +32,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #00ff00;
 }
 
 .resume-main {
